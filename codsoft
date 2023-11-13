@@ -1,0 +1,576 @@
+Tasks 1 Landing page
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Landing page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #5c5f5f;
+  color: white;
+}
+.header h1 {
+  font-size: 15px;
+  text-align: right;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(247, 235, 235);
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #6e6d6d;
+  color: rgb(245, 236, 236);
+}
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: rgb(61, 58, 58);
+  padding: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <img src="logo of codsoft.jpg"width="150"height="45">
+  <a href="#">Contact</a>
+  <a href="#">Services</a>
+  <a href="#">About</a>
+  <a href="#">Home</a>
+</div>
+</div>
+<div class="header">
+  <h1>Codsoft Landing Page
+  <p>code.create.succed</p></h1>
+</div>
+</div>
+<img src="istockphoto.jpg"width="1300"height="600">
+<div class="footer">
+  <h4>@nsrangane02@gmail.com.All the rights reserved.</h4>
+</div>
+</body>
+</html>
+
+Task 2 protfolio
+<!DOCTYPE html>
+<html lang="english">
+<head>
+	<meta charset="UTF-8">
+	<meta name=" portfolio" content=
+		"width=device-width, initial-scale=1.0">
+	<title> portfolio of niranjan</title>
+</head>
+<body>
+	<table id="header" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="grey">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td>
+						</td>
+						<td>
+							<font face="Comic sans MS" size="5">
+								<p>Niranjan Rangane</p>
+							</font>
+						</td>
+						<td width="15%">
+							
+						</td>
+
+						<td>
+							<a href="#home" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Home
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									About
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#projects" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Projects
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#achievements" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Achievements
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#contact" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Contact
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+    <table id="home" border="1" width="100%"
+		cellpadding="20" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td align="center" valign="middle">
+							
+
+							<h2>
+								<font face="Verdana" size="6"
+									color="#4CAF50">
+								</font>
+							</h2>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+    <table id="about" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="#FF5733">
+								About Me
+							</font>
+							<hr color="#FF5733" width="200">
+						</td>
+					</tr>
+
+					<tr>
+						<td width="40%">
+							<img src="niranjan.jpg"width="350"height="400">
+						</td>
+
+						<td width="60%">
+							<font face="Verdana" size="4"
+								color="white">
+								Thanks for your interest, here is a quick story of Me 
+								<hr color="black"> I am Niranjan Rangane Student of MIT ACSC 
+								currently studying in Master's Computer Science 
+								and have completed my Bachelor's of Computer Science 
+								from Nowrosjee Wadia College . Will completing my Bachelor's 
+								degree I have completed one intership of period duration of 12 months  
+								<hr color="black">
+								I do my work mainly in C-Language,HTML, 
+								and JAVA.Data Structure& Algorithm 
+								are my stronger section.Besides these
+								I know Web Development LINUX and database as well.
+								<hr color="black">
+								This website is a portfolio  of my -self and 
+								achievements project which is 
+								built using HTML only.
+								Here one can also find ideas for 
+								projects in different languages.
+								Thanks again for reading this, 
+								because of people like you, it 
+								exists and prospers
+								<hr color="black">
+								<br>
+								<b> NIRANJAN RANGANE</b>
+							</font>
+						</td>
+					</tr>
+				</table>
+				<hr color="black">
+				<hr color="black">
+				<hr color="black">
+			</td>
+		</tr>
+	</table>
+	<section>
+	<table id="projects" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="black">
+								Projects
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10">
+							<font face="Times New Roman"
+								size="5" color="black">
+								<ul>
+									<li>
+										Furinture management system 
+									</li>
+									<font face="Times New Roman"
+								size="4" color="black">
+									<p>Furniture Management System is to streamline operations, reduce costs, improve asset 
+									 utilization, and enhance the overall efficiency of managing furniture-related assets 
+									 within an organization. It is particularly valuable for organizations with a large inventory
+									 of furniture or complex furniture-related needs.</p>
+								</ul>
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+							</font>
+						</td>
+
+					</table>
+						<center><img src="niranjan 1.jpg" alt="Project" width="50%" height="50%" >
+						<p>  This is the login page for a website or application involves several key elements and considerations.
+							Here's a basic overview of what you might need to include and consider when designing a login page:
+						<ul>Username : Users typically enter their username or email address to identify themselves.</ul>
+							<ul>Password : A secure password field where users can enter their password. 
+							It's important to use encryption to protect passwords and to enforce password security standards.</ul>
+							Sign-Up or Register Link: Provide a link for users who do not have an account to sign up or register for your service.</p>
+						<img src="niranjan2 .jpg" alt="Project" width="50%" height="50%" style="position: absolute; top: 5%; left: 100%;">	
+						<img src="niranjan 3.jpg" alt="Project" width="50%" height="50%">
+						<p>Designing a home page for a furniture management website involves creating a user-friendly 
+						interface that provides easy access to the key features and information.Here's a basic overview
+						of what you might want to include on a furniture management home page:
+					<ul> Product Listings:Present furniture items with images, names, prices, and short descriptions.Include options to add items to the cart or wishlist directly from the home page.</ul>
+				</p>
+						<img src="niranjan 4.jpg" alt="Project" width="50%" height="50%">
+						<p>This is order list  or a display of  no of orders given by the customers</p>
+						</td>
+					</center>
+				</td>
+		</tr>
+	</table>
+</section>
+<style>
+	.p{
+		top: 100%;
+		text-align: right;
+		text-justify: auto;
+		text-size-adjust: 15px;
+	}
+</style>
+	<table id="achievements" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Verdana" size="7" color="#FF5733">
+								Achievements
+								<hr color="#FF5733" width="200">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Verdana" size="4" color="white">
+								<ul>
+									<li>
+										<p> I have completed my Bachelor's of computer science in 8.04 CGPA</p>
+										<p> In my intership I have got a trophy  as best empolyee of the year</p>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										</ul>
+									</li>
+
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table id="contact" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="black">
+								Contact
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellpadding="15"
+								cellspacing="0" align="center" bgcolor="black">
+								<tr>
+									<td width="30%">
+										<hr color="black">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Name
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="text" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Email
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="email" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Number
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="number" size="12">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Message
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<textarea rows="5"
+												cols="37">
+											</textarea>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										
+									</td>
+									<td width="70%">
+										<button type="Submit">
+											<font face="Verdana"
+												size="4" color="black">
+												<b>Submit</b>
+											</font>
+										</button>
+										<hr color="black">
+										<hr color="black">
+									</td>
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#F9AD8F">
+		<tr>
+						<td>
+							<td width="29%" valign="top">
+							<b>Instagram</b>
+							<a href="https://www.instagram.com/niranjan_3847/?hl=en" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="29%" valign="top">
+							<b>Gmail</b>
+							<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" style="text-decoration:none">
+  						➲
+						</td>
+						<td width="29%" valign="top">
+							<b>resume</b>
+							<a href="file:///C:/Users/niranjan/Desktop/codsoft/DOC-20231030-WA0007..pdf"style="text-decoration:none">
+								➲
+							</a>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="grey">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+					
+					</tr>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+
+task 3 Calculator
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <center> 
+  <div class="container">
+	<fieldset id="container">
+		<form name="calculator">
+		<input id="display" type="text" name="display" readonly>
+		<br>
+		    <input class="button digits"type="button" value="7" onclick="calculator.display.value += '7'">
+			<input class="button digits"type="button" value="8" onclick="calculator.display.value += '8'">
+			<input class="button digits"type="button" value="9" onclick="calculator.display.value += '9'">
+			<input class="button mathButtons"type="button" value="+" onclick="calculator.display.value += ' + '">
+			<br>
+			<input class="button digits"type="button" value="4" onclick="calculator.display.value += '4'">
+			<input class="button digits"type="button" value="5" onclick="calculator.display.value += '5'">
+			<input class="button digits"type="button" value="6" onclick="calculator.display.value += '6'">
+			<input class="button mathButtons"type="button" value="-" onclick="calculator.display.value += ' - '">
+			<br>
+			<input class="button digits"type="button" value="1" onclick="calculator.display.value += '1'">
+			<input class="button digits"type="button" value="2" onclick="calculator.display.value += '2'">
+			<input class="button digits"type="button" value="3" onclick="calculator.display.value += '3'">
+			<input class="button mathButtons" type="button" value="x" onclick="calculator.display.value += ' * '">
+			<br>
+			<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
+			<input class="button digits"type="button" value="0" onclick="calculator.display.value += '0'">
+			<input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+			<input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += ' / '">
+		</form>
+	</fieldset>
+</center>
+</div>
+</body>
+</html>
